@@ -1,0 +1,246 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+body{
+    font-family:'Poppins', sans-serif;
+    width:100%;
+}
+header{
+
+    background-color:#C9AB0E ;
+    display: flex;
+    justify-content: space-between;
+  
+}
+
+header h3{
+    color:black;
+    font-size: 26px;
+    font-weight: bold;
+    margin-left: 10px;
+    padding: 5px 0px;
+    font-family: 'Dancing Script', cursive;
+}
+
+nav ul{
+    list-style: none;
+}
+nav ul li {
+
+    display: inline-block;
+    padding: 10px 35px;
+    transition: 1.5s;
+    
+}
+
+nav ul li a{
+
+    text-decoration: none;
+    color:white;
+    font-size: 18px;
+    text-transform: capitalize;
+    
+}
+nav ul li:hover{
+    background: black;
+}
+
+
+.header-section{
+   
+    height: 500px;
+    background-color: orchid;
+
+}
+.half-width{
+   float: left;
+   width:50%;
+ 
+
+
+}
+
+.half-width img{
+
+    width:85%;
+    padding: 20px 30px;
+}
+.home{
+    background: whitesmoke;
+    height:600px;
+}
+.home-content{
+    padding-top:140px;
+    padding-left: 70px;
+}
+h2{
+    
+    font-size: 40px;
+    text-transform: capitalize;
+  
+    
+}
+.home p{
+    padding: 40px 0px;
+}
+
+#skip{
+    color:orange;
+}
+p{
+    padding-bottom: 30px;
+    font-size: 15px;
+}
+.button{
+
+    text-decoration: none;
+    color:white;
+    background: linear-gradient(145deg,orange,tomato);
+    padding:12px 20px;
+    border-radius: 20px;
+    text-transform: capitalize;
+}
+    
+
+
+.about{
+    background:url("./images/shapes/7.png");
+    height: 550px;
+    background-repeat: no-repeat;
+ 
+    width: 100%;;
+}
+.about img{
+
+    width:50%;
+    margin:60px 130px;
+    
+ 
+}
+
+
+
+
+
+.about-content{
+  
+    padding: 70px 30px;
+    margin: 50px 0px;
+}
+
+.about p{
+    padding-bottom: 80px;
+    padding-top: 30px;
+}
+
+
+.recipe{
+    height:700px;
+  
+}
+
+.recipe-content h1{
+
+    color:green;
+    text-transform: capitalize;
+    padding-bottom: 20px;
+    font-size: 25px;
+}
+
+.recipe-content p{
+    width:500px;
+    margin-left: 500px;
+   text-align: center;
+}
+.photo-card{
+  
+    width:1100px;
+    margin: auto;
+    height:450px;
+
+    display: flex;
+    justify-content: space-between;
+}
+.card-photo{
+    width:300px;
+
+   
+    height:400px;
+    border-radius: 10px;
+    
+    box-shadow: 4px 5px 15px gray;
+}
+.card-photo img{
+
+    width:100%;
+    height:60%;
+    padding:15px 15px;
+    border-radius: 10%;
+
+}
+
+.card-info{
+    padding: 0px 16px;
+    text-transform: capitalize;
+}
+.card-info p{
+    color:gray;
+    padding:10px 0px;
+    line-height: 25px;
+}
+
+
+.count-div{
+
+    width:1100px;
+  
+    height:160px;
+    margin: auto;
+    box-shadow: 4px 4px 10px gray;
+    margin-bottom: 60px;
+    border-radius: 10px;
+}
+
+.count{
+
+    width:350px;
+ 
+   margin-left:16px;
+    float:left;
+  padding:40px 40px;
+  text-align: center;
+
+}
+.count h1{
+    font-weight: bold;
+    font-size: 37px;
+}
+.count h4{
+    text-transform: capitalize;
+    font-weight: 400;
+}
+
+
+.footer-area{
+    height:180px;
+    background-color:black;
+    text-align: center;
+}
+
+.footer h1{
+padding: 30px 0px;
+   text-transform: uppercase;
+   color:gray
+}
+
+#food{
+    color:orange;
+}
+
+.footer p{
+
+    color:white;
+ font-weight: 200px;
+}
